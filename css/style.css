@@ -399,7 +399,7 @@ body {
     animation-timing-function: ease-out; }
   .header__text-box {
     position: absolute;
-    background-position: top;
+    background-position:top;
     top: 13%;
     left: 50%;
     transform: translate(-50%, -50%);
