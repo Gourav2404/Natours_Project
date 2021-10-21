@@ -400,7 +400,7 @@ body {
   .header__text-box {
     position: absolute;
     background-position:top;
-    top: 13%;
+    top: 8%;
     left: 50%;
     transform: translate(-50%, -50%);
     text-align: center; }
