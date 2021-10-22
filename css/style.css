@@ -111,6 +111,9 @@ body {
 .u-margin-top-big {
   margin-top: 12rem; }
 
+.u-margin-bottom-medium {
+  padding: 2rem 5rem; }
+
 .bg-video {
   position: absolute;
   top: 0;
@@ -197,6 +200,7 @@ body {
   .composition__photo {
     width: 55%;
     box-shadow: 0 1.5rem 4rem rgba(0, 0, 0, 0.5);
+    border-radius: 2px;
     position: absolute;
     z-index: 10;
     transition: all .3s;
@@ -345,7 +349,6 @@ body {
   .story__shape {
     width: 15rem;
     height: 15rem;
-    background-color: orangered;
     float: left;
     -webkit-shape-outside: circle(50% at 50% 50%);
     shape-outside: circle(50% at 50% 50%);
@@ -399,8 +402,8 @@ body {
     animation-timing-function: ease-out; }
   .header__text-box {
     position: absolute;
-    background-position:top;
-    top: 13%;
+    background-position: top;
+    top: 6%;
     left: 50%;
     transform: translate(-50%, -50%);
     text-align: center; }
@@ -453,3 +456,14 @@ body {
 .section-stories {
   position: relative;
   padding: 8rem 0rem; }
+
+.section-book {
+  padding: 15rem 13rem;
+  background-image: linear-gradient(to right bottom, #7ed56f, #28b485); }
+
+.book {
+  background-image: linear-gradient(105deg, rgba(255, 255, 255, 0.9) 0%, rgba(255, 255, 255, 0.9) 50%, transparent 50%), url(../img/nat-10.jpg);
+  background-size: 100%;
+  border-radius: 3px;
+  box-shadow: 0 1.5rem 4rem rgba(0, 0, 0, 0.2);
+  height: 50rem; }
