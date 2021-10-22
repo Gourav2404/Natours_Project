@@ -402,13 +402,8 @@ body {
     animation-timing-function: ease-out; }
   .header__text-box {
     position: absolute;
-<<<<<<< HEAD
     background-position: top;
-    top: 6%;
-=======
-    background-position:top;
-    top: 8%;
->>>>>>> 701bcb758102c203fbf62756d509001b30cbfc58
+    top: 13%;
     left: 50%;
     transform: translate(-50%, -50%);
     text-align: center; }
