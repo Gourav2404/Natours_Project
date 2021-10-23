@@ -16,7 +16,7 @@
 </head>
 
 <body>
-  <header class="header">
+  <header class="header" style="">
     <div class="header__logo-box">
       <img src="img/logo-white.png" alt="logo" class="header__logo">
     </div>
@@ -99,7 +99,7 @@
           <div class="cards">
             <div class="cards__side cards__side--front">
               <div class="cards__picture cards__picture--1">
-                
+
               </div>
               <h4 class="cards__heading">
                 <span class="cards__heading--span cards__heading--span-1">
@@ -237,20 +237,39 @@
     <section class="section-book">
       <div class="row">
         <div class="book">
-          <div class="book-form">
+          <div class="u-margin-bottom-medium">
+            <h2 class="heading-secondary heading__secondary--fix">
+              Start Booking Now
+            </h2>
+          </div>
+          <div class="book__form">
             <form action="#" class="form">
-              <div class="u-margin-bottom-medium">
-                <h2 class="heading-secondary">
-                    Start Booking Now
-                </h2>
-              </div>
               <div class="form__group">
                 <input type="text" class="form__input" placeholder="Full Name" id="name" required>
-                <lable for="name" class="form__lable"> Full name</lable>
+                <label for="name" class="form__label">Full Name</label>
               </div>
               <div class="form__group">
-                <input type="email " class="form__input" placeholder="Email" id="email" required>
-                <lable for="email" class="form__lable">email</lable>
+                <input type="email " class="form__input" placeholder="Email Address" id="email" required>
+                <label for="email" class="form__label">Email Address</label>
+              </div>
+              <div class="form__group">
+                <div class="form__radio-group">
+                  <input type="radio" class="form__radio-input" id="small" name="select">
+                  <label for="small" class="form__radio-label">
+                    <span class="form__radio-button"></span>
+                    small tour group
+                  </label>
+                </div>
+                <div class="form__radio-group">
+                  <input type="radio" class="form__radio-input" id="large" name="select">
+                  <label for="large" class="form__radio-label">
+                    <span class="form__radio-button"></span>
+                    large tour group
+                  </label>
+                </div>
+              </div>
+              <div class="form__group">
+                <a href="/"><button class="bn632-hover bn28">Next Step &rarr;</button></a>
               </div>
             </form>
           </div>

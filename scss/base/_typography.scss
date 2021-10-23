@@ -53,12 +53,18 @@ body{
   }
 }
 
+.heading__secondary--fix{
+  width: 50%;
+  padding-left: 3rem;
+}
+
 .heading-tertiary{
   font-size: 1.6rem;
   font-weight: 700;
   text-transform: uppercase;
   letter-spacing: .2rem;
 }
+
 
 .paragraph{
   font-size: 1.4rem;
