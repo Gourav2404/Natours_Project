@@ -4,7 +4,6 @@ body{
   font-size: 1.6rem;
   line-height: 1.7;
   color: $color-grey-dark;
-  padding: 3rem;
   position: relative;
 }
 
@@ -22,6 +21,11 @@ body{
     animation-name: move-in-left ;
     animation-duration: 1s;
     animation-timing-function: ease-out;
+
+    @include respond(phone){
+      letter-spacing: 1rem;
+      font-size: 5rem;
+    }
   }
 
   &-sub{
@@ -34,6 +38,10 @@ body{
     animation-duration: 1s;
     animation-timing-function: ease-out;
     margin-bottom: 6rem;
+
+    @include respond(phone){
+      letter-spacing: 1rem;
+    }
   }
 }
 
