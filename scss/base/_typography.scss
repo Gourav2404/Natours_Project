@@ -22,10 +22,7 @@ body{
     animation-duration: 1s;
     animation-timing-function: ease-out;
 
-    @include respond(phone){
-      letter-spacing: 1rem;
-      font-size: 5rem;
-    }
+
   }
 
   &-sub{
@@ -39,9 +36,6 @@ body{
     animation-timing-function: ease-out;
     margin-bottom: 6rem;
 
-    @include respond(phone){
-      letter-spacing: 1rem;
-    }
   }
 }
 
@@ -54,6 +48,8 @@ body{
   color: transparent ;
   letter-spacing: .2rem;
   transition: all .2s;
+
+
 
   &:hover{
     transform: skewY(2deg) skewX(15deg) scale(1.1);
