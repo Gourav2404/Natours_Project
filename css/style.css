@@ -35,29 +35,10 @@
 
 html {
   font-size: 62.5%; }
-  @media (max-width: 112.5em) {
-    html {
-      font-size: 75%; } }
-  @media (max-width: 75em) {
-    html {
-      font-size: 56.25%; } }
-  @media (max-width: 56.25em) {
-    html {
-      font-size: 50%; } }
-  @media (max-width: 37.5em) {
-    html {
-      font-size: 37.5%; } }
-  @media (max-width: 25em) {
-    html {
-      font-size: 25%; } }
 
 body {
   box-sizing: border-box;
   padding: 3rem; }
-  @media (max-width: 56.25em) {
-    body {
-      padding: 0rem;
-      margin: 0rem; } }
 
 body {
   font-family: "Lato" , sans-serif;
