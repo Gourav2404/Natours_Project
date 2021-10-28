@@ -8,6 +8,27 @@
 
 html{
   font-size: 62.5%;
+
+  @include respond(big-desktop){
+    font-size: 62.5%;
+  }
+
+  @include respond(tab-land){
+    font-size: 46.25%;
+  }
+
+  @include respond(tab-port){
+    font-size: 36.25%;
+  }
+
+  @include respond(phone){
+    font-size: 27.5%;
+  }
+
+  @include respond(small-phone){
+    font-size: 25%;
+  }
+
 }
 
 body{

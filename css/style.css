@@ -35,6 +35,21 @@
 
 html {
   font-size: 62.5%; }
+  @media (min-width: 75em) {
+    html {
+      font-size: 62.5%; } }
+  @media (max-width: 75em) {
+    html {
+      font-size: 46.25%; } }
+  @media (max-width: 56.25em) {
+    html {
+      font-size: 36.25%; } }
+  @media (max-width: 37.5em) {
+    html {
+      font-size: 27.5%; } }
+  @media (max-width: 25em) {
+    html {
+      font-size: 25%; } }
 
 body {
   box-sizing: border-box;
@@ -578,7 +593,24 @@ body {
   background-image: linear-gradient(to right bottom, rgba(126, 213, 111, 0.8), rgba(40, 180, 133, 0.8)), url(../img/hero.jpg);
   background-size: cover;
   background-position: top;
-  clip-path: polygon(0 0, 100% 0%, 100% 75vh, 0% 100%); }
+  clip-path: polygon(0 0, 100% 0%, 100% 75vh, 0% 100%);
+  position: relative; }
+  @media (min-width: 75em) {
+    .header {
+      height: 95vh;
+      clip-path: polygon(0 0, 100% 0%, 100% 75vh, 0% 100%); } }
+  @media (max-width: 56.25em) {
+    .header {
+      height: 90vh;
+      clip-path: polygon(0 0, 100% 0%, 100% 74vh, 0% 100%); } }
+  @media (max-width: 75em) {
+    .header {
+      height: 85vh;
+      clip-path: polygon(0 0, 100% 0%, 100% 75vh, 0% 100%); } }
+  @media (max-width: 37.5em) {
+    .header {
+      height: 60vh;
+      clip-path: polygon(0 0, 100% 0%, 100% 51vh, 0% 100%); } }
   .header__logo-box {
     position: absolute;
     top: 6rem;
@@ -592,7 +624,7 @@ body {
   .header__text-box {
     position: absolute;
     background-position: top;
-    top: 4%;
+    top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
     text-align: center; }
@@ -780,6 +812,18 @@ body {
   background-color: #f7f7f7;
   padding: 35rem 0 30rem 0;
   margin-top: -50vh; }
+  @media (min-width: 75em) {
+    .section-about {
+      padding: 35rem 0 30rem 0; } }
+  @media (max-width: 75em) {
+    .section-about {
+      padding: 41rem 0 30rem 0; } }
+  @media (max-width: 56.25em) {
+    .section-about {
+      padding: 53rem 0 30rem 0; } }
+  @media (max-width: 37.5em) {
+    .section-about {
+      padding: 70rem 0 30rem 0; } }
 
 .section-festure {
   margin-top: -10rem;

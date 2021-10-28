@@ -8,6 +8,33 @@
   background-size: cover;
   background-position: top;
   clip-path: polygon(0 0, 100% 0%, 100% 75vh, 0% 100%);
+  position: relative;
+
+  @include respond(big-desktop){
+    height: 95vh;
+    clip-path: polygon(0 0, 100% 0%, 100% 75vh, 0% 100%);
+  }
+
+  @include respond(tab-port){
+    height: 90vh;
+    clip-path: polygon(0 0, 100% 0%, 100% 74vh, 0% 100%);
+  }
+
+  @include respond(tab-land){
+    height: 85vh;
+    clip-path: polygon(0 0, 100% 0%, 100% 75vh, 0% 100%);
+  }
+
+  @include respond(phone){
+    height: 60vh;
+    clip-path: polygon(0 0, 100% 0%, 100% 51vh, 0% 100%);
+  }
+
+  // @include respond(small-phone){
+  //   height: 95vh;
+  //   clip-path: polygon(0 0, 100% 0%, 100% 75vh, 0% 100%);
+  // }
+
 
   &__logo-box{
     position: absolute;
@@ -32,7 +59,7 @@
   &__text-box{
     position: absolute;
     background-position: top;
-    top: 4%;
+    top: 50%;
     left: 50%;
     transform: translate(-50% , -50%);
     text-align: center;

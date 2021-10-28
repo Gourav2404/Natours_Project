@@ -2,6 +2,26 @@
   background-color: $color-grey-light-1 ;
   padding: 35rem 0 30rem 0 ;
   margin-top: -50vh;
+
+  @include respond(big-desktop){
+    padding: 35rem 0 30rem 0 ;
+  }
+
+  @include respond(tab-land){
+    padding: 41rem 0 30rem 0 ;
+  }
+
+  @include respond(tab-port){
+    padding: 53rem 0 30rem 0 ;
+  }
+
+  @include respond(phone){
+    padding: 70rem 0 30rem 0 ;
+  }
+
+  // @include respond(small-phone){
+  //   font-size: 25%;
+  // }
 }
 
 .section-festure{
@@ -19,6 +39,7 @@
   & > *{
     transform: skewY(7deg);
   }
+
 }
 
 .section-tour{
@@ -47,6 +68,6 @@
 
   &__form{
     width: 50% ;
-    padding-left: 8rem; 
+    padding-left: 8rem;
   }
 }
