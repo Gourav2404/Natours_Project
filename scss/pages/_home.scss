@@ -8,19 +8,19 @@
   }
 
   @include respond(tab-land){
-    padding: 41rem 0 30rem 0 ;
+    padding: 51rem 0 30rem 0 ;
   }
 
   @include respond(tab-port){
-    padding: 53rem 0 30rem 0 ;
+    padding: 65rem 0 30rem 0 ;
   }
 
   @include respond(phone){
-    padding: 70rem 0 30rem 0 ;
+    padding: 85rem 0 30rem 0 ;
   }
 
   @include respond(small-phone){
-    padding: 90rem 0 30rem 0 ;
+    padding: 135rem 0 30rem 0 ;
   }
 }
 
