@@ -49,7 +49,7 @@ html {
       font-size: 27.5%; } }
   @media (max-width: 25em) {
     html {
-      font-size: 25%; } }
+      font-size: 17.5%; } }
 
 body {
   box-sizing: border-box;
@@ -445,6 +445,21 @@ body {
     .cards__details ul {
       list-style: none;
       width: 80%; }
+      @media (min-width: 75em) {
+        .cards__details ul {
+          padding-left: 3rem; } }
+      @media (max-width: 75em) {
+        .cards__details ul {
+          padding-left: 3rem; } }
+      @media (max-width: 56.25em) {
+        .cards__details ul {
+          padding-left: 3rem; } }
+      @media (max-width: 37.5em) {
+        .cards__details ul {
+          padding-left: 3.5rem; } }
+      @media (max-width: 25em) {
+        .cards__details ul {
+          padding-left: 3.5rem; } }
       .cards__details ul li {
         text-transform: uppercase;
         font-size: 1.5rem;
@@ -601,16 +616,20 @@ body {
       clip-path: polygon(0 0, 100% 0%, 100% 75vh, 0% 100%); } }
   @media (max-width: 56.25em) {
     .header {
-      height: 90vh;
+      height: 95vh;
       clip-path: polygon(0 0, 100% 0%, 100% 74vh, 0% 100%); } }
   @media (max-width: 75em) {
     .header {
-      height: 85vh;
+      height: 95vh;
       clip-path: polygon(0 0, 100% 0%, 100% 75vh, 0% 100%); } }
   @media (max-width: 37.5em) {
     .header {
       height: 60vh;
       clip-path: polygon(0 0, 100% 0%, 100% 51vh, 0% 100%); } }
+  @media (max-width: 25em) {
+    .header {
+      height: 45vh;
+      clip-path: polygon(0 0, 100% 0%, 100% 38vh, 0% 100%); } }
   .header__logo-box {
     position: absolute;
     top: 6rem;
@@ -680,6 +699,12 @@ body {
     content: "";
     display: table;
     clear: both; }
+  @media (max-width: 37.5em) {
+    .row {
+      width: 100%; } }
+  @media (max-width: 25em) {
+    .row {
+      width: 100%; } }
   .row [class^="col-"] {
     float: left; }
     .row [class^="col-"]:not(:last-child) {
@@ -820,10 +845,13 @@ body {
       padding: 41rem 0 30rem 0; } }
   @media (max-width: 56.25em) {
     .section-about {
-      padding: 53rem 0 30rem 0; } }
+      padding: 41rem 0 30rem 0; } }
   @media (max-width: 37.5em) {
     .section-about {
-      padding: 70rem 0 30rem 0; } }
+      padding: 54rem 0 30rem 0; } }
+  @media (max-width: 25em) {
+    .section-about {
+      padding: 90rem 0 30rem 0; } }
 
 .section-festure {
   margin-top: -10rem;
