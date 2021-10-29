@@ -769,8 +769,7 @@ body {
   width: 100%; }
 
 .navigation__item {
-  margin: 1rem;
-  display: none; }
+  margin: 1rem; }
 
 .navigation__link:link, .navigation__link:visited {
   display: inline-block;
