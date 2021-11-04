@@ -1,5 +1,5 @@
 .header{
-  height: 95vh;
+  height: 85vh;
   background-image: linear-gradient(
     to right bottom,
     rgba($color-primary-light, 0.8),
@@ -10,36 +10,36 @@
   clip-path: polygon(0 0, 100% 0%, 100% 75vh, 0% 100%);
   position: relative;
 
-  @include respond(big-desktop){
-    height: 95vh;
-    clip-path: polygon(0 0, 100% 0%, 100% 75vh, 0% 100%);
-  }
-
-  @include respond(tab-port){
-    height: 95vh;
-    clip-path: polygon(0 0, 100% 0%, 100% 74vh, 0% 100%);
-  }
-
-  @include respond(tab-land){
-    height: 95vh;
-    clip-path: polygon(0 0, 100% 0%, 100% 75vh, 0% 100%);
-  }
-
-  @include respond(phone){
-    height: 60vh;
-    clip-path: polygon(0 0, 100% 0%, 100% 51vh, 0% 100%);
-  }
-
-  @include respond(small-phone){
-    height: 45vh;
-    clip-path: polygon(0 0, 100% 0%, 100% 38vh, 0% 100%);
-  }
+  // @include respond(big-desktop){
+  //   height: 95vh;
+  //   clip-path: polygon(0 0, 100% 0%, 100% 75vh, 0% 100%);
+  // }
+  //
+  // @include respond(tab-port){
+  //   height: 95vh;
+  //   clip-path: polygon(0 0, 100% 0%, 100% 74vh, 0% 100%);
+  // }
+  //
+  // @include respond(tab-land){
+  //   height: 95vh;
+  //   clip-path: polygon(0 0, 100% 0%, 100% 75vh, 0% 100%);
+  // }
+  //
+  // @include respond(phone){
+  //   height: 60vh;
+  //   clip-path: polygon(0 0, 100% 0%, 100% 51vh, 0% 100%);
+  // }
+  //
+  // @include respond(small-phone){
+  //   height: 45vh;
+  //   clip-path: polygon(0 0, 100% 0%, 100% 38vh, 0% 100%);
+  // }
 
 
   &__logo-box{
     position: absolute;
-    top: 6rem;
-    left: 6rem;
+    top: 4rem;//6rem;
+    left: 4rem;//6rem;
   }
 
   &__logo{
@@ -59,7 +59,7 @@
   &__text-box{
     position: absolute;
     background-position: top;
-    top: 50%;
+    top: 40%;//50%;
     left: 50%;
     transform: translate(-50% , -50%);
     text-align: center;

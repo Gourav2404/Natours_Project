@@ -1,6 +1,6 @@
 .form{
-  &__group{
-
+  &__group:not(:last-child) {
+        margin-bottom: 2rem;
   }
 
   &__input{
@@ -12,14 +12,17 @@
     background-color: rgba($color-white , .5);
     border: none;
     border-bottom: 3px solid transparent ;
-    width : 65% ;
+    width: 90%;
     display: block;
+    transition: all .3s;
+    // width : 65% ;
+    // display: block;
 
     &:focus{
       outline: none ;
       box-shadow: 0 1rem 2rem rgba($color-black , .1);
       border-bottom: 3px solid $color-primary;
-      transition: all .3s;
+      // transition: all .3s;
     }
 
     &:focus:invalid{
@@ -48,7 +51,7 @@
   }
 
   &__radio-group{
-    width: 39%;
+    width: 49%;
     display: inline-block;
   }
 
@@ -60,25 +63,25 @@
     font-size: $default-font-size;
     cursor: pointer;
     position: relative;
-    padding-left: 2rem
+    padding-left: 4.5rem;//2rem
   }
 
   &__radio-button{
-    height: 2.5rem;
-    width: 2.5rem;
+    height: 3rem;//2.5
+    width: 3rem;//2.5
     border: 5px solid $color-primary;
     border-radius: 50%;
     display: inline-block;
     position: absolute;
-    left: -3rem;
-    top: -.8rem;
+    left: 0;//-3rem;
+    top: -.4rem//-.8rem;
     transition: all;
 
     &::after{
       content: "";
       display: inline-block;
-      height: 1.7rem;
-      width: 1.7rem;
+      height: 1.3rem;//1.7rem;
+      width: 1.3rem//1.7rem;
       border-radius: 50%;
       position: absolute;
       top: 50%;

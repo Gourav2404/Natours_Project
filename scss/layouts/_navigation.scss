@@ -96,8 +96,10 @@
       }
 
   &__icon{
+
+    position: relative;
     margin-top: 3.5rem;
-    margin-left: 2rem;
+    //margin-left: 2rem;
     &,
     &::before,
     &::after{
