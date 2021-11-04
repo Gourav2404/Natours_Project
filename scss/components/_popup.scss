@@ -10,19 +10,15 @@
   visibility: hidden;
   transition: all .3s;
 
-  &:target{
-    opacity: 1;
-    visibility: visible;
-  }
 
   &__content{
     width: 75%;
-    height: 50rem;
+    // height: 50rem;
     background-color: $color-white;
     box-shadow: 0 2rem 4rem rgba($color-black , .2);
-    position: absolute;
-    top: 50%;
-    left: 50%;
+    // position: absolute;
+    // top: 50%;
+    // left: 50%;
     transform: translate(-50% , -50%) scale(.25);
     border-radius: 3px;
     display: table;
@@ -33,14 +29,14 @@
   }
 
   &__left{
-    width: 37%;
+    width: 33.3333333%;//37%;
     display: table-cell;
     vertical-align: middle;
 
   }
 
   &__right{
-    width: 67%;
+    width: 66.6666666;//67%;
     display: table-cell;
     vertical-align: middle;
     padding: 3rem 5rem;
@@ -68,6 +64,11 @@
     -ms-hyphens: auto;
     -webkit-hyphens: auto;
     hyphens: auto;
+  }
+
+  &:target{
+    opacity: 1;
+    visibility: visible;
   }
 
   &:target &__content{

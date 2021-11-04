@@ -28,7 +28,7 @@
 
   }
 
-  &-white{
+  &--white{
     background-color: $color-white;
     color: $color-grey-dark;
 
@@ -59,13 +59,13 @@
     transition: all .4s;
   }
 
-  &-animate{
+  &--animate{
     animation: move-in-btn .5s ease-out ;
     animation-fill-mode: backwards;
   }
 }
 
-.btn-next{
+.btn-text{
   &:link,
   &:visited{
     font-size: $default-font-size ;

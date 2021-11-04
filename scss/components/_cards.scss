@@ -79,7 +79,7 @@
     text-align: right;
     color: $color-white;
     position: absolute;
-    top: 9rem;
+    top: 12rem;//9rem;
     right: 2rem;
     width: 75%;
 
@@ -109,25 +109,25 @@
       list-style: none;
       width: 80%;
 
-      @include respond(big-desktop){
-        padding-left: 3rem;
-      }
-
-      @include respond(tab-land){
-        padding-left: 3rem;
-      }
-
-      @include respond(tab-port){
-        padding-left: 3rem;
-      }
-
-      @include respond(phone){
-        padding-left: 3.5rem;
-      }
-
-      @include respond(small-phone){
-        padding-left: 3.5rem;
-      }
+      // @include respond(big-desktop){
+      //   padding-left: 3rem;
+      // }
+      //
+      // @include respond(tab-land){
+      //   padding-left: 3rem;
+      // }
+      //
+      // @include respond(tab-port){
+      //   padding-left: 3rem;
+      // }
+      //
+      // @include respond(phone){
+      //   padding-left: 3.5rem;
+      // }
+      //
+      // @include respond(small-phone){
+      //   padding-left: 3.5rem;
+      // }
 
       li{
         text-transform: uppercase;
@@ -147,6 +147,7 @@
     top: 50% ;
     left: 50%;
     transform: translate(-50% , -50%);
+    width: 90%;
     text-align: center;
 
   }
