@@ -35,21 +35,6 @@
 
 html {
   font-size: 62.5%; }
-  @media (min-width: 75em) {
-    html {
-      font-size: 62.5%; } }
-  @media (max-width: 75em) {
-    html {
-      font-size: 46.25%; } }
-  @media (max-width: 56.25em) {
-    html {
-      font-size: 36.25%; } }
-  @media (max-width: 37.5em) {
-    html {
-      font-size: 27.5%; } }
-  @media (max-width: 25em) {
-    html {
-      font-size: 17.5%; } }
 
 body {
   box-sizing: border-box;
@@ -445,21 +430,6 @@ body {
     .cards__details ul {
       list-style: none;
       width: 80%; }
-      @media (min-width: 75em) {
-        .cards__details ul {
-          padding-left: 3rem; } }
-      @media (max-width: 75em) {
-        .cards__details ul {
-          padding-left: 3rem; } }
-      @media (max-width: 56.25em) {
-        .cards__details ul {
-          padding-left: 3rem; } }
-      @media (max-width: 37.5em) {
-        .cards__details ul {
-          padding-left: 3.5rem; } }
-      @media (max-width: 25em) {
-        .cards__details ul {
-          padding-left: 3.5rem; } }
       .cards__details ul li {
         text-transform: uppercase;
         font-size: 1.5rem;

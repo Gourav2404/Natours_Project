@@ -109,25 +109,25 @@
       list-style: none;
       width: 80%;
 
-      @include respond(big-desktop){
-        padding-left: 3rem;
-      }
-
-      @include respond(tab-land){
-        padding-left: 3rem;
-      }
-
-      @include respond(tab-port){
-        padding-left: 3rem;
-      }
-
-      @include respond(phone){
-        padding-left: 3.5rem;
-      }
-
-      @include respond(small-phone){
-        padding-left: 3.5rem;
-      }
+      // @include respond(big-desktop){
+      //   padding-left: 3rem;
+      // }
+      //
+      // @include respond(tab-land){
+      //   padding-left: 3rem;
+      // }
+      //
+      // @include respond(tab-port){
+      //   padding-left: 3rem;
+      // }
+      //
+      // @include respond(phone){
+      //   padding-left: 3.5rem;
+      // }
+      //
+      // @include respond(small-phone){
+      //   padding-left: 3.5rem;
+      // }
 
       li{
         text-transform: uppercase;
