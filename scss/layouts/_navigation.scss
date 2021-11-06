@@ -99,7 +99,7 @@
 
     position: relative;
     margin-top: 3.5rem;
-    //margin-left: 2rem;
+    margin-left: 2rem;
     &,
     &::before,
     &::after{
@@ -114,7 +114,7 @@
     &::after{
       content: "";
       position: absolute;
-      left: 0;
+      left: 0rem;
       transition: all .2s;
     }
 

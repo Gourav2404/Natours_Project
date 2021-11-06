@@ -74,14 +74,14 @@
     display: inline-block;
     position: absolute;
     left: 0;//-3rem;
-    top: -.4rem//-.8rem;
+    top: -.4rem;//-.8rem;
     transition: all;
 
     &::after{
       content: "";
       display: inline-block;
       height: 1.3rem;//1.7rem;
-      width: 1.3rem//1.7rem;
+      width: 1.3rem;//1.7rem;
       border-radius: 50%;
       position: absolute;
       top: 50%;

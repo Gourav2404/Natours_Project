@@ -10,30 +10,30 @@
   clip-path: polygon(0 0, 100% 0%, 100% 75vh, 0% 100%);
   position: relative;
 
-  // @include respond(big-desktop){
-  //   height: 95vh;
-  //   clip-path: polygon(0 0, 100% 0%, 100% 75vh, 0% 100%);
-  // }
-  //
-  // @include respond(tab-port){
-  //   height: 95vh;
-  //   clip-path: polygon(0 0, 100% 0%, 100% 74vh, 0% 100%);
-  // }
-  //
-  // @include respond(tab-land){
-  //   height: 95vh;
-  //   clip-path: polygon(0 0, 100% 0%, 100% 75vh, 0% 100%);
-  // }
-  //
-  // @include respond(phone){
-  //   height: 60vh;
-  //   clip-path: polygon(0 0, 100% 0%, 100% 51vh, 0% 100%);
-  // }
-  //
-  // @include respond(small-phone){
-  //   height: 45vh;
-  //   clip-path: polygon(0 0, 100% 0%, 100% 38vh, 0% 100%);
-  // }
+  @include respond(big-desktop){
+    height: 85vh;
+    clip-path: polygon(0 0, 100% 0%, 100% 75vh, 0% 100%);
+  }
+
+  @include respond(tab-port){
+    height: 85vh;
+    clip-path: polygon(0 0, 100% 0%, 100% 74vh, 0% 100%);
+  }
+
+  @include respond(tab-land){
+    height: 85vh;
+    clip-path: polygon(0 0, 100% 0%, 100% 75vh, 0% 100%);
+  }
+
+  @include respond(phone){
+    height: 60vh;
+    clip-path: polygon(0 0, 100% 0%, 100% 51vh, 0% 100%);
+  }
+
+  @include respond(small-phone){
+    height: 45vh;
+    clip-path: polygon(0 0, 100% 0%, 100% 38vh, 0% 100%);
+  }
 
 
   &__logo-box{
