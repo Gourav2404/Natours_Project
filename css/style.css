@@ -99,7 +99,8 @@ body {
 
 .heading__secondary--fix {
   width: 50%;
-  padding-left: 3rem; }
+  padding-left: 10rem;
+  padding-top: 3rem; }
 
 .heading-tertiary {
   font-size: 1.6rem;
@@ -304,7 +305,7 @@ body {
   background-color: rgba(255, 255, 255, 0.5);
   border: none;
   border-bottom: 3px solid transparent;
-  width: 90%;
+  width: 70%;
   display: block;
   transition: all .3s; }
   .form__input:focus {
@@ -584,7 +585,7 @@ body {
     backface-visibility: hidden; }
 
 .header {
-  height: 85vh;
+  height: 95vh;
   background-image: linear-gradient(to right bottom, rgba(126, 213, 111, 0.8), rgba(40, 180, 133, 0.8)), url(../img/hero.jpg);
   background-size: cover;
   background-position: top;
@@ -592,12 +593,12 @@ body {
   position: relative; }
   @media (min-width: 112.5em) {
     .header {
-      height: 85vh;
+      height: 95vh;
       clip-path: polygon(0 0, 100% 0%, 100% 75vh, 0% 100%); } }
   @media (max-width: 56.25em) {
     .header {
-      height: 85vh;
-      clip-path: polygon(0 0, 100% 0%, 100% 74vh, 0% 100%); } }
+      height: 95vh;
+      clip-path: polygon(0 0, 100% 0%, 100% 75vh, 0% 100%); } }
   @media (max-width: 75em) {
     .header {
       height: 85vh;
@@ -742,7 +743,8 @@ body {
   transform: translate(-50%, -50%);
   list-style: none;
   text-align: center;
-  width: 100%; }
+  width: 100%;
+  overflow: hidden; }
 
 .navigation__item {
   margin: 1rem; }
@@ -813,7 +815,7 @@ body {
 .section-about {
   background-color: #f7f7f7;
   padding: 25rem 0;
-  margin-top: -20vh; }
+  margin-top: -40vh; }
 
 .section-festure {
   margin-top: -10rem;
@@ -827,7 +829,7 @@ body {
 .section-tour {
   background-color: #f7f7f7;
   padding: 25rem 0 15rem 0;
-  margin-top: -10rem; }
+  margin-top: -17rem; }
 
 .section-stories {
   position: relative;
